@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS selectors learning</title>
+        <!-- Include the CSS stylesheet -->
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1> CSS Selectors Example</h1>
+        <p>
+            This is an example paragraph which is styled by an element selector pointed to 'p'.
+            The title is also styled by an element selector pointed to 'h1'
+        </p>
+        <p id="para1">
+            This paragraph is styled by an id selector.
+            The paragraph is selected by declaring the id of the paragraph as 'para1' in the HTML file and by using the selector '#para1' in the CSS stylesheet.
+        </p>
+        <h2 class="class_example_1"> Class selector </h2>
+        <p class="class_example_1">
+            This paragraph and the above title belong to "class_example_1" class and are modified by a class selector.
+            Text should appear black and aligned to the right.
+        </p>
+        <h2 class="class_example_2"> Class selector for specific elements </h2>
+        <p class="class_example_2">
+            This paragraph and the above title belong to "class_example_2" class and are modified by a class selector.
+            The class selector makes text color violet. Also there is a class selector for 'h2' titles which aligns text to the center.
+        </p>
+        <h2 class="class_example_2 class_example_3"> Multiple class selectors </h2>
+        <p class="class_example_2 class_example_3">
+            This paragraph and the above title belong to "class_example_2" and "class_example_3" classes.
+            There are CSS selectors for both classes.
+            This paragraph should appear violet (class_example_2) and in Helvetica font (class_example_3).
+            The title should appear centered (class_example_2 for 'h2' elements), violet (class_example_2) and in Helvetica font (class_example_3).
+        </p>
+        <h3> This is a 'h3' title that should be affected by the universal selector </h3>
+        <h4> This is a 'h4' title that should be affected by a grouping selector that groups 'h4' and 'h5'</h4>
+        <h5> This is a 'h5' title that should be affected by a grouping selector that groups 'h4' and 'h5'</h5>
+    </body>
+</html>

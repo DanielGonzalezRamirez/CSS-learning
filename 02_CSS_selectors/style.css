@@ -1,0 +1,43 @@
+/* Element selector: selects HTML elements based on the element name */
+h1 {
+    color: red;
+    text-align: center;
+    font-family: Helvetica;
+}
+p {
+    color: blue;
+    text-align: justify;
+}
+/* ID selector: uses the id attribute of and HTML element
+The id of an element is unique within a page, so this selector is applide to one unique element. */
+#para1 {
+    color: green;
+    text-align: center;
+}
+/* Class selector: selects HTML elements with a specific class attribute. 
+The following selector will align left and color black all the elements of the HTML file with class "class_example".*/
+.class_example_1 {
+    color: black;
+    text-align: right;
+}
+/* Class selectors can be specified to affect only specific elements of a class */
+.class_example_2 {
+    color: violet;
+}
+h2.class_example_2 {
+    text-align: center;
+}
+/* Class selectors can also be applied to more than one class */
+.class_example_3 {
+    font-family: Helvetica;
+}
+/* Universal selector: selects all HTML elements on the page. */
+* {
+    color: brown;
+    text-align: center;
+}
+/* Grouping selector: selects the HTML elements specified in the definition */
+h4, h5 {
+    color: darkblue;
+    text-align: center;
+}
