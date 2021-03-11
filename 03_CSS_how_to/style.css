@@ -1,0 +1,13 @@
+/* Define body properties */
+body {
+    background-color: lightblue;
+}
+/* Define h1 properties */
+h1 {
+    color: red;
+    text-align: center;
+}
+p {
+    color: green;
+    text-align: justify;
+}
