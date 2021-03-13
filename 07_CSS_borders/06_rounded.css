@@ -1,0 +1,25 @@
+/* Borders can be rounded and roundness can be defined */
+.onepixrad {
+    border: 2px solid red;
+    border-radius: 1px;
+}
+.twopixrad {
+    border: 2px solid red;
+    border-radius: 2px;
+}
+.threepixrad {
+    border: 2px solid red;
+    border-radius: 3px;
+}
+.fivepixrad {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+.eightpixrad {
+    border: 2px solid red;
+    border-radius: 8px;
+}
+.thirteenpixrad {
+    border: 2px solid red;
+    border-radius: 13px;
+}

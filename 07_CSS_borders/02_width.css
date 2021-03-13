@@ -1,0 +1,30 @@
+/* Border widths can be set by an specific size (px, pt, cm, em, etc)
+or by using pre-defined values (thin, medium, or thick) */
+.thick {
+    border-style: solid;
+    border-width: thick;
+}
+.medium {
+    border-style: dotted;
+    border-width: medium;
+}
+.thin {
+    border-style: dashed;
+    border-width: thin;
+}
+.fivepixels {
+    border-style: double;
+    border-width: 5px;
+}
+.twopixels {
+    border-style: inset;
+    border-width: 2px;
+}
+.specific_top_sides {
+    border-style: solid;
+    border-width: 5px 20px;
+}
+.specific_all {
+    border-style: solid;
+    border-width: 5px 8px 13px 21px;
+}

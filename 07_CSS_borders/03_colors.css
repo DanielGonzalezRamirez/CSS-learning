@@ -1,0 +1,18 @@
+/* Different color borders are easy to define */
+.red {
+    border-style: solid;
+    border-color: red;
+}
+.blue {
+    border-style: dotted;
+    border-color: blue;
+}
+.green {
+    border-style: inset;
+    border-color: green;
+}
+.mix {
+    border-style: solid;
+    border-width: 8px 13px 21px 34px;
+    border-color: red green blue violet;
+}

@@ -1,0 +1,10 @@
+/* Border sides can be modified individually */
+.one {
+    border-top-style: solid;
+    border-left-style: groove;
+    border-right-style: inset;
+    border-bottom-style: dotted;
+}
+.two {
+    border-style: solid inset dotted groove;
+}

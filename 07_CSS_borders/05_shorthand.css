@@ -1,0 +1,9 @@
+/* Border properties can be defined with shorthand */
+.complete {
+    border: 5px solid red;
+    background-color: teal;
+}
+.oneside {
+    border-left: 5px solid red;
+    background-color: lightgrey;
+}
