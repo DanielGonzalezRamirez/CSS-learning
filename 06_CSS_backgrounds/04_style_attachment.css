@@ -1,0 +1,7 @@
+/* Body has an image of Plata attached to the background */
+body {
+    background-image: url("plata_cachorra.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}

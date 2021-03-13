@@ -1,0 +1,9 @@
+/* Body has an image of Plata as background */
+body {
+    background-image: url("plata_cachorra.png");
+}
+/* Elements h1 and p have a white background so they are readable */
+h1, p {
+    background-color: white;
+    text-align: center;
+}

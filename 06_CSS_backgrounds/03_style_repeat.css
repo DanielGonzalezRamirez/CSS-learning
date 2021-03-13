@@ -1,0 +1,18 @@
+/* Body has an image of Plata, but it does not repeat itself */
+body {
+    background-image: url("plata_cachorra.png");
+    background-repeat: no-repeat;
+}
+/* Div elements will have the same image as background but
+it repeats itself horizontally */
+div {
+    background-image: url("plata_cachorra.png");
+    background-repeat: repeat-x;
+    margin-top: 408px;
+}
+/* Elements h1 and p have a white background so they are readable */
+h1, p {
+    background-color: white;
+    text-align: center;
+    margin-left: 365px;
+}

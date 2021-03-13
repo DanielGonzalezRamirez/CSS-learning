@@ -1,0 +1,16 @@
+/* Define the background color for the page body */
+body {
+    background-color: black;
+}
+/* Define the background color for the h1, p and div elements */
+h1 {
+    background-color: yellow;
+}
+
+p {
+    background-color: blue;
+}
+
+div {
+    background-color: red;
+}

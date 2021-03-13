@@ -1,0 +1,11 @@
+/* Shorthand properties allow to sumarize several lines of background definition into a sinle line */
+body {
+    /* Instead of writing this: */
+    /* background-color: white;
+    background-image: url("plata_cachorra.png");
+    background-repeat: no-repeat;
+    background-position: right top; 
+    background-attachment: fixed*/
+    /* Write you can write this (I rather write everything down as above): */
+    background: white url("plata_cachorra.png") no-repeat right top fixed;
+}
