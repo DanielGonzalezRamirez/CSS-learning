@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    color: white;
+}
+/* h1 elements are defined with individual margin sides */
+h1 {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 80px;
+    margin-left: 130px;
+    border: 1px solid lightpink;
+}
+/* h2 elements are defined with individual margins using a shorthand property */
+h2 {
+    /* definition order: top, right, bottom, left */
+    margin: 10px 10px 20px 30px;
+    border: 1px solid tomato;
+}
+/* h3 elements are defined using a shorthand property , grouping right and left */
+h3 {
+    /* definition order: top, right-left, bottom  */
+    margin: 20px 30px 50px;
+    border: 1px solid violet;
+}
+/* h4 elements are defined using a shorthand property, grouping right-left and top-bottom */
+h4 {
+    /* definition order: top-bottom, right-left */
+    margin: 80px 130px;
+    border: 1px solid greenyellow;
+}
+/* h5 elements are defined using a shorthand property, grouping all margins */
+h5 {
+    margin: 100px;
+    border: 1px solid white;
+}
+/* div elements in class auto are defined with auto margin
+Elements will take up the specified width and be centered */
+div.auto {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+}
+/* div is defined with a fixed margin for all sides */
+div.inherit {
+    border: 1px solid lightblue;
+    margin: 80px;
+}
+/* p elements will inherit the margin definition of the container */
+p {
+    margin: inherit;
+}
